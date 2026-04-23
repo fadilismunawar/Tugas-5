@@ -1,0 +1,355 @@
+:root{
+  --main-color: #FAF9F6; 
+  --primary-pastel: #B2AC88; 
+  --wood-accent: #C19A6B; 
+  --text-main: #3E2723; 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  scroll-margin-top: 70px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navigasi {
+    background-color: var(--main-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #3E2723;
+}
+
+.nav{
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover{
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  cursor: pointer;
+}
+
+.btn-sign {
+    background-color: var(--wood-accent); 
+    color: white;
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.home {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 870px;
+    padding-bottom: ;
+}
+
+.btn-product {
+  background-color: #ffe6bc; 
+  color: #3E2723;
+  transition: all 0.3s ease; 
+}
+
+.btn-product:hover {
+  color: #f1f1f1;
+  background-color: #C19A6B;
+  cursor: pointer;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.btn-back-to-top:hover {
+    transform: scale(1.1); 
+    background-color: #dbd6cd;
+    color: black;
+    border-color: #dbd6cd;
+}
+
+
+.custom-image-wrapper {
+    position: relative;
+    min-height: 500px;
+}
+
+.custom-image-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: auto;
+    z-index: 1;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.08);
+    border-radius: 15px;
+}
+
+.custom-image-secondary {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: auto;
+    z-index: 2;
+    transform: translateX(-12%) translateY(10%);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border: 5px solid #fff;
+}
+
+.modal-content {
+    overflow: hidden;
+}
+
+.modal {
+    z-index: 1060 !important;
+}
+.modal-backdrop {
+    z-index: 1050 !important;
+}
+
+
+.rounded-top-4 {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+
+.modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-out;
+}
+
+.modal.show .modal-dialog {
+    transform: scale(1);
+}
+
+
+.about-materi{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #F5F5DC;
+}
+
+@keyframes masukDariKiri {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes masukDariKanan {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.reveal-left, .reveal-right {
+    opacity: 0;
+    transition: all 0.8s ease-out;
+}
+
+.animate-left {
+    animation: masukDariKiri 1s forwards;
+}
+
+.animate-right {
+    animation: masukDariKanan 1s forwards;
+}
+
+@keyframes munculkeAtas{
+  from{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up{
+  opacity: 0;
+  animation-name: munculkeAtas;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.5s; }
+.delay-3 { animation-delay: 0.8s; }
+
+.card-furniture {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.kategori{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.card-furniture:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  background: rgba(0. 0. 0. 0.7);
+}
+
+.img-square {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover; 
+  border-radius: 15px;
+}
+
+.tombol-kategori{
+  background-color: #D2B48C; 
+  border: none;
+}
+
+.tombol-kategori:hover{
+  background-color: #fec47c;
+  color: white;
+  cursor: pointer;
+}
+
+.product-card {
+    height: 300px; 
+}
+
+.img-bento {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover .img-bento {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    text-align: left;
+}
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.accordion-item {
+    border: none !important;
+    margin-bottom: 15px;
+}
+
+.accordion-button {
+    border-radius: 10px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #dbd6cd;
+    color: black;
+}
+
+@keyframes melayang{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.img-melayang{
+  animation-name: melayang;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.service-card i {
+    transition: color 0.3s ease;
+}
+
+.service-card:hover i {
+    color: #7e6945 !important;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    background-color: #a59273;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) {
+    .custom-image-wrapper {
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: static;
+    }
+    
+    .custom-image-main, 
+    .custom-image-secondary {
+        position: static;
+        width: 100%;
+        transform: none;
+        border: none;
+    }
+}
+
