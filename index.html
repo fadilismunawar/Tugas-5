@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Veva Furniture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navigasi fixed-top ps-5 pe-5 pt-3 pb-3">
+      <div class="container-fluid px-lg-5">
+        <a class="navbar-brand fw-bold text-#3E2723 fs-3" href="#">Veva Furniture</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto align-items-center fs-5">
+            <li class="nav-item"><a class="nav-link px-3" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#kategori">Kategori</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#layanan">Layanan</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#contact">Contact</a></li>
+          </ul>
+    
+          <div class="d-flex">
+            <a href="#" class="btn btn-sign fs-5 btn-product"><i class="bi bi-cart"></i><b class="ms-2">Troli</b></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+ </header>
+<section class="home vh-100 d-flex align-items-center justify-content-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('main.jpg');" id="home">
+  <div class="container text-center">
+      <h1 class="display-4 text-white fw-bold fade-up delay-1">Sempurnakan Hunian <br> Dengan Veva Furniture</h1>
+      <p class="lead text-white fs-5 fade-up delay-2">Anda Mencari Furniture yang Berkualitas dan Terjangkau? <br> Veva Furniture Solusinya!</p>
+      <a href="#layanan" class="btn rounded-pill px-4 py-2 fw-bold fs-5 btn-product fade-up delay-3">Lihat Produk!</a>
+  </div>
+</section>
+<section class="py-5 px-lg-5 bg-light" id="about">
+<div class="container">
+    <div class="row align-items-center">
+        
+        <div class="col-md-6 order-2 order-md-1 reveal-left">
+            <div class="custom-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?q=80&w=1470&auto=format&fit=crop" 
+                     class="img-fluid custom-image-main" 
+                     alt="Sofa Ruang Tamu Mewah">
+                
+                <img src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=1471&auto=format&fit=crop" 
+                     class="img-fluid custom-image-secondary" 
+                     alt="Tempat Tidur Nyaman">
+            </div>
+        </div>
+
+        <div class="col-md-6 order-1 order-md-2 mt-5 mt-md-0 reveal-right">
+            <div class="ps-md-5"> <p class="text-muted mb-1 text-uppercase fw-bold fs-7">Profil Perusahaan</p>
+                <h1 class="fw-bold mb-4">Penyedia Furniture Berkualitas dan Harga Terjangkau</h1>
+                <p class="text-muted fs-5 mb-5">Kami adalah mitra terpercaya Anda untuk menciptakan ruang yang indah, fungsional, dan nyaman dengan koleksi furnitur berkualitas tinggi yang dirancang agar tahan lama dan terjangkau.</p>
+                
+                <div class="row g-4 mb-5 about-materi">
+                    <div class="col-6">
+                        <div class="d-flex align-items-center mb-2 about-materi">
+                            <span class="fs-4 text-primary fw-bold me-2"><i class="bi bi-patch-check"></i></span> <h5 class="mb-0 fw-bold">Kualitas Premium</h5>
+                        </div>
+                        <p class="text-muted small mb-0">Hanya menggunakan bahan baku terbaik.</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex align-items-center mb-2">
+                            <span class="fs-4 text-info fw-bold me-2"><i class="bi bi-palette"></i></span>
+                            <h5 class="mb-0 fw-bold">Desain Modern</h5>
+                        </div>
+                        <p class="text-muted small mb-0">Gaya yang selalu mengikuti tren terbaru.</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex align-items-center mb-2">
+                            <span class="fs-4 text-success fw-bold me-2"><i class="bi bi-shield-check"></i></span>
+                            <h5 class="mb-0 fw-bold">Garansi Panjang</h5>
+                        </div>
+                        <p class="text-muted small mb-0">Jaminan kepuasan dan ketahanan produk.</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex align-items-center mb-2">
+                            <span class="fs-4 text-danger fw-bold me-2"><i class="bi bi-headset"></i></span>
+                            <h5 class="mb-0 fw-bold">Layanan Ramah</h5>
+                        </div>
+                        <p class="text-muted small mb-0">Tim kami siap membantu Anda.</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark btn-lg rounded-pill px-5" data-bs-toggle="modal" data-bs-target="#modalVeva">
+          Pelajari Lebih Lanjut
+        </button>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="py-5 p-5 pb-5 kategori" id="kategori" style="background-color: #E8E2D6;">
+  <div class="container">
+    <div class="text-center mb-4">
+        <p class="text-muted small fw-bold mb-0">VEVA FURNITURE</p>
+        <h3 class="fw-bold">Kategori Dekorasi Rumah</h3>
+        <p class="text-muted">Kategori-kategori furniture rumah yang berkualitas <br> dari Veva Furniture</p>
+    </div> <br>
+
+    <div class="row g-4">
+        <div class="col-6 col-md-3">
+            <div class="card-furniture">
+                <img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1000&auto=format&fit=crop" class="img-square shadow-lg rounded-circle" alt="Kursi">
+            </div>
+            <p class="fs-7 text-center mt-4">Kursi minimalis yang <br> awet dengan harga terjangkau</p>
+                <div class="text-center mt-4">
+                    <button class="btn rounded-pill px-5 fw-bold text-dark tombol-kategori" data-bs-toggle="modal" data-bs-target="#modalKursi">
+                        Lihat
+                    </button>
+                    
+                    <div class="modal fade" id="modalKursi" tabindex="-1" aria-labelledby="modalKursiLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg"> <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+                                
+            <div class="modal-body p-0">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1000&auto=format&fit=crop" 
+                             class="img-fluid h-100 w-100" 
+                             style="object-fit: cover; min-height: 300px;" 
+                             alt="Kursi Veva Furniture">
+                    </div>
+                    
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="p-5">
+                            <h3 class="fw-bold mb-1" id="modalKursiLabel">Kursi</h3>
+                            <p class="text-muted mb-4 fs-7">(Dining & Accent Chair)</p>
+                            
+                            
+                            <p class="text-muted lh-lg fs-7 mb-5">
+                                Lebih dari sekadar tempat duduk, kursi kami adalah karya seni fungsional. 
+                                Dengan rangka kayu pilihan yang kuat dan desain ergonomis, kursi Veva Furniture 
+                                memastikan Anda tetap nyaman meskipun duduk berjam-jam. Pilihan tepat untuk 
+                                ruang makan maupun ruang kerja.
+                            </p>
+                            
+                            <div class="text-end">
+                              <a href="kursi.html" class="btn btn-outline-dark rounded-pill px-4 fs-7 me-2">Lihat Produk</a>
+                                <button type="button" class="btn btn-outline-dark rounded-pill px-4 fs-7" data-bs-dismiss="modal">
+                                    Tutup
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </div>
+    </div>
+</div>
+
+                </div>
+        </div>
+        
+        <div class="col-6 col-md-3">
+            <div class="card-furniture">
+                <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=1000&auto=format&fit=crop" class="img-square shadow-lg rounded-circle" alt="Lemari">
+            </div>
+            <p class="fs-7 text-center mt-4">Lemari kokoh dan tahan lama <br> anti rayap dan lapuk</p>
+                 <div class="text-center mt-4">
+                   <button class="btn rounded-pill px-5 fw-bold text-dark tombol-kategori" data-bs-toggle="modal" data-bs-target="#modalLemari">
+                        Lihat
+                    </button>
+                    
+                    <div class="modal fade" id="modalLemari" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+                        <div class="modal-body p-0">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=1000&auto=format&fit=crop" class="img-fluid h-100 w-100" style="object-fit: cover; min-height: 300px;">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center p-5">
+                        <div>
+                            <h3 class="fw-bold mb-1">Lemari</h3>
+                            <p class="text-muted mb-4 fs-7">(Wardrobe)</p>
+                            <p class="text-muted lh-lg fs-7 mb-4">
+                                Hadirkan solusi penyimpanan yang kokoh sekaligus estetik. Lemari Veva Furniture dirancang dengan material anti-rayap dan sistem pintu yang halus (soft-close). Memadukan fungsi ruang yang luas dengan sentuhan kayu minimalis.
+                            </p>
+                            <a href="lemari.html" class="btn btn-outline-dark rounded-pill px-4 fs-7 me-2">Lihat Produk</a>
+                            <button type="button" class="btn btn-outline-dark rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card-furniture">
+                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1000&auto=format&fit=crop" class="img-square shadow-lg rounded-circle" alt="Sofa">
+            </div>
+            <p class="fs-7 text-center mt-4">Sofa berkualitas dan <br> terjamin kemutuannya</p>
+                 <div class="text-center mt-4">
+                    <button class="btn rounded-pill px-5 fw-bold text-dark tombol-kategori" data-bs-toggle="modal" data-bs-target="#modalSofa">
+                        Lihat
+                    </button>
+                    
+                    <div class="modal fade" id="modalSofa" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+            <div class="modal-body p-0">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1000&auto=format&fit=crop" class="img-fluid h-100 w-100" style="object-fit: cover; min-height: 300px;">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center p-5">
+                        <div>
+                            <h3 class="fw-bold mb-1">Sofa</h3>
+                            <p class="text-muted mb-4 fs-7">(Living Room Seating)</p>
+                            <p class="text-muted lh-lg fs-7 mb-4">
+                                Ciptakan momen berharga di ruang tamu dengan sofa yang empuk dan tahan lama. Menggunakan busa high-density yang tidak mudah kempes dan pilihan kain linen berkualitas tinggi. Cocok untuk menghidupkan suasana keluarga.
+                            </p>
+                            <a href="sofa.html" class="btn btn-outline-dark rounded-pill px-4 fs-7 me-2">Lihat Produk</a>
+                            <button type="button" class="btn btn-outline-dark rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card-furniture">
+                <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1000&auto=format&fit=crop" class="img-square shadow-lg rounded-circle" alt="Kasur">
+            </div>
+            <p class="fs-7 text-center mt-4">Kasur empuk dan luas <br> dipastikan aman dan nyaman</p>
+                  <div class="text-center mt-4">
+                    <button class="btn rounded-pill px-5 fw-bold text-dark tombol-kategori" data-bs-toggle="modal" data-bs-target="#modalKasur">
+                        Lihat
+                    </button>
+                    
+                    <div class="modal fade" id="modalKasur" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden">
+            <div class="modal-body p-0">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1000&auto=format&fit=crop" class="img-fluid h-100 w-100" style="object-fit: cover; min-height: 300px;">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center p-5">
+                        <div>
+                            <h3 class="fw-bold mb-1">Kasur</h3>
+                            <p class="text-muted mb-4 fs-7">(Springbed & Mattress)</p>
+                            <p class="text-muted lh-lg fs-7 mb-4">
+                                Rasakan pengalaman tidur di atas awan. Kasur kami menggunakan teknologi pocket spring yang menyesuaikan lekuk tubuh dan kain rajut premium yang sejuk di kulit. Dirancang untuk kesehatan tulang belakang Anda.
+                            </p>
+                            <a href="kasur.html" class="btn btn-outline-dark rounded-pill px-4 fs-7 me-2">Lihat Produk</a>
+                            <button type="button" class="btn btn-outline-dark rounded-pill px-4" data-bs-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 px-lg-5 bg-light" id="layanan">
+  <div class="text-center mb-5">
+    <p class="text-muted small mb-0">DIREKOMENDASIKAN DENGAN GAYA</p>
+    <h2 class="fw-bold">Koleksi Pilihan Veva Furniture</h2>
+  </div>
+  
+  <div class="container">
+    <div class="row g-4"> <div class="col-6">
+        <div class="product-card position-relative overflow-hidden rounded-3 shadow-lg">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1000&auto=format&fit=crop" class="img-bento" alt="Kursi">
+          <div class="overlay-text d-flex justify-content-between align-items-center w-100">
+              <div>
+                  <h4 class="fw-bold text-white mb-0">Kursi</h4>
+                  <p class="text-white-50 small mb-0">Nyaman dan Aman</p>
+              </div>
+              <a href="kursi.html" class="btn btn-light text-dark rounded-pill fw-bold px-3 py-1">
+                  Lihat Detail →
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="product-card position-relative overflow-hidden rounded-3 shadow-lg">
+          <img src="lemari.jpg" class="img-bento" alt="Lemari">
+            <div class="overlay-text d-flex justify-content-between align-items-center w-100">
+             <div>
+                <h4 class="fw-bold text-white mb-0">Lemari</h4>
+                <p class="text-white-50 small mb-0">Awet dan Tahan Lama</p>
+              </div>
+              <a href="lemari.html" class="btn btn-light text-dark rounded-pill fw-bold px-3 py-1">
+                  Lihat Detail →
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="product-card position-relative overflow-hidden rounded-3 shadow-lg">
+          <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1000&auto=format&fit=crop" class="img-bento" alt="Sofa">
+          <div class="overlay-text d-flex justify-content-between align-items-center w-100">
+              <div>
+                  <h4 class="fw-bold text-white mb-0">Sofa</h4>
+                  <p class="text-white-50 small mb-0">Nyaman dan Hangat</p>
+              </div>
+              <a href="sofa.html" class="btn btn-light text-dark rounded-pill fw-bold px-3 py-1">
+                  Lihat Detail →
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="product-card position-relative overflow-hidden rounded-3 shadow-lg">
+          <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=1000&auto=format&fit=crop" class="img-bento" alt="Kasur">
+          <div class="overlay-text d-flex justify-content-between align-items-center w-100">
+              <div>
+                  <h4 class="fw-bold text-white mb-0">Kasur</h4>
+                  <p class="text-white-50 small mb-0">Nyaman dan Betah</p>
+              </div>
+              <a href="kasur.html" class="btn btn-light text-dark rounded-pill fw-bold px-3 py-1">
+                  Lihat Detail →
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-100" style="background-color: #E8E2D6;"> <div class="row align-items-center g-5"> <div class="col-lg-6">
+            <h2 class="fw-bold mb-4">Pertanyaan Tentang Kami</h2>
+            <div class="accordion shadow-sm" id="accordionFaq">
+                
+                <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Apa keunggulan Veva Furniture?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Kami menggunakan bahan baku premium dan desain modern yang selalu mengikuti tren terbaru.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Pilihan dekorasi apa saja yang tersedia?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Tersedia kursi minimalis, lemari estetik, sofa nyaman, hingga perlengkapan tidur mewah.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Bagaimana layanan pelanggan kami?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Tim kami siap membantu Anda dengan layanan yang ramah dan responsif setiap saat.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Apakah ada garansi untuk produk furnitur?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Ya, setiap produk kami dilengkapi dengan garansi panjang untuk menjamin kualitas dan ketahanan.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 shadow-sm rounded-3 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Bagaimana cara memesan produk Veva?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Anda cek pada bagian kontak (footer) untuk menghubungi kami.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="img-container ps-lg-4"> <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop" class="img-fluid rounded-4 shadow-lg w-100 img-melayang" alt="Interior Veva" style="height: 500px; object-fit: cover;">
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <div>
+                <h2 class="fw-bold mb-0">Spesialis Furniture Kami</h2>
+                <p class="text-muted small">Solusi terbaik untuk hunian impian Anda</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+            
+            <div class="col">
+                <div class="card h-100 border-0 rounded-4 shadow-lg py-4 px-3 service-card" style="background-color: #d6cbb8;">
+                    <div class="mb-3">
+                        <i class="bi bi-buildings text-dark" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Konstruksi Desain</h5>
+                    <p class="text-muted small">Perencanaan struktur bangunan yang kokoh dengan estetika visual yang menawan.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 border-0 rounded-4 shadow-sm py-4 px-3 service-card" style="background-color: #d6cbb8;">
+                    <div class="mb-3">
+                        <i class="bi bi-tools text-dark" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Pengerjaan Fisik</h5>
+                    <p class="text-muted small">Eksekusi pembangunan yang presisi dengan tenaga ahli profesional di bidangnya.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 border-0 rounded-4 shadow-sm py-4 px-3 service-card" style="background-color: #d6cbb8;">
+                    <div class="mb-3">
+                        <i class="bi bi-house-gear text-dark" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Renovasi Rumah</h5>
+                    <p class="text-muted small">Mengubah tampilan lama rumah Anda menjadi lebih segar, modern, dan nyaman.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 border-0 rounded-4 shadow-sm py-4 px-3 service-card" style="background-color: #d6cbb8;">
+                    <div class="mb-3">
+                        <i class="bi bi-pencil-square text-dark" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Desain Arsitek</h5>
+                    <p class="text-muted small">Konsultasi arsitektur untuk menciptakan tata ruang yang fungsional dan efisien.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section> <br>
+<section style="padding-top: 80px; padding-bottom: 80px; background-color: #E8E2D6;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <p class="text-muted fw-bold mb-2 small">APA KATA MEREKA?</p>
+      <h2 class="fw-bold mb-4" style="color: #3E2723">Testimoni Pelanggan Setia</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150" 
+                   class="rounded-circle shadow-sm me-3" 
+                   alt="Pelanggan Veva" 
+                   style="width: 60px; height: 60px; object-fit: cover;">
+              <div>
+                <h6 class="fw-bold m-0" style="color: #3E2723">Siti Rahma</h6>
+                <p class="text-muted small m-0">Jakarta Selatan</p>
+              </div>
+            </div>
+            <div class="mb-2" style="color: #FFC107;">
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="card-text text-muted" style="text-align: justify; font-size: 14px;">
+              "Beli lemari minimalis di Veva Furniture benar-benar memuaskan! Kualitas kayunya bagus banget, halus, dan desainnya pas untuk kamar saya yang gak terlalu luas. Pengirimannya juga cepat dan aman. Sukses terus Veva!"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150" 
+                   class="rounded-circle shadow-sm me-3" 
+                   alt="Pelanggan Veva" 
+                   style="width: 60px; height: 60px; object-fit: cover;">
+              <div>
+                <h6 class="fw-bold m-0" style="color: #3E2723">Budi Santoso</h6>
+                <p class="text-muted small m-0">Depok</p>
+              </div>
+            </div>
+            <div class="mb-2" style="color: #FFC107;">
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="card-text text-muted" style="text-align: justify; font-size: 14px;">
+              "Sofa Veva sangat nyaman. Busa-nya empuk tapi gak gampang kempes. Bahannya juga adem. Pelayanannya ramah banget, pas nanya-nanya lewat Troli langsung direspon dengan baik. Sangat direkomendasikan!"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 rounded-4 p-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150" 
+                   class="rounded-circle shadow-sm me-3" 
+                   alt="Pelanggan Veva" 
+                   style="width: 60px; height: 60px; object-fit: cover;">
+              <div>
+                <h6 class="fw-bold m-0" style="color: #3E2723">Maya Amalia</h6>
+                <p class="text-muted small m-0">Tangerang</p>
+              </div>
+            </div>
+            <div class="mb-2" style="color: #FFC107;">
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+             <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="card-text text-muted" style="text-align: justify; font-size: 14px;">
+              "Baru pertama kali beli furniture online, awalnya ragu. Tapi setelah beli kasur di Veva, keraguannya hilang. Kasurnya nyaman banget, tidur jadi lebih pulas. Harganya juga bersahabat dibanding toko lain. Top!"
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="py-5 text-light" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('main.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;" id="contact">
+  <div class="container">
+    <div class="row gy-4">
+      
+      <div class="col-lg-3 col-md-6">
+      <h2 class="text-light fw-bold mb-4">Veva Furniture</h2>
+      <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1000&auto=format&fit=crop" class="img-square shadow-lg rounded-circle " alt="Kasur" style="width: 200px; height: auto;">
+      </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="fw-bold mb-4">Kontak Kami</h5>
+          <div class="text-secondary small info">
+            <p>
+              <a href="https://www.google.com/maps/search/Jakarta+Timur" target="_blank" class="text-decoration-none text-light">
+                <i class="bi bi-geo-alt-fill me-2 text-white"></i> Jakarta Timur
+              </a>
+            </p>
+        
+            <p>
+              <a href="mailto:fadilismunawar@gmail.com" class="text-decoration-none text-light">
+                <i class="bi bi-envelope-fill me-2 text-white"></i> vevafurnitur@gmail.com
+              </a>
+            </p>
+        
+            <p>
+              <a href="https://wa.me/6283866076788" target="_blank" class="text-decoration-none text-light">
+                <i class="bi bi-whatsapp me-2 text-white"></i> +62 838 6607 6788
+              </a>
+            </p>
+        
+            <p>
+              <a href="https://www.instagram.com/mfdl_23" target="_blank" class="text-decoration-none text-light">
+                <i class="bi bi-instagram me-2 text-white"></i> @veva_furnitur
+              </a>
+            </p>
+          </div>
+        </div>
+
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold mb-4">Informasi</h5>
+        <ul class="list-unstyled text-secondary small text-light">
+          <li class="mb-2">Bantuan</li>
+          <li class="mb-2">FAQS</li>
+          <li class="mb-2">Tentang Kami</li>
+          <li class="mb-2">Hubungi Kami</li>
+          <li class="mb-2">Kantor Pusat</li>
+          <li class="mb-2">Hak Cipta</li>
+          <li class="mb-2">Site Map</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="fw-bold mb-3 small text-uppercase">Payment Channels</h5>
+      
+        <div class="d-flex flex-wrap gap-3 bg-light p-3 rounded-4">
+         <p class="small text-dark">Terimakasih telah Berkunjung, berikut adalah payment channel kami : </p>
+          <img src="https://img.icons8.com/color/48/visa.png" width="40" alt="Visa">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" width="35" alt="mastercard">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" width="45" alt="paypal"> <br>
+          
+          <div class="d-flex flex-wrap gap-3">
+          <img src="https://img.icons8.com/color/48/amex.png" width="40" alt="Amex">
+          <img src="https://img.icons8.com/color/48/apple-pay.png" width="40" alt="Apple Pay">
+          <img src="https://img.icons8.com/color/48/google-pay.png" width="40" alt="Google Pay">
+        </div>
+        </div>
+      </div>
+    </div> <br> <br>
+    <div class="row align-items-center small text-light fw-bold">
+        <p class="text-center mb-0">
+          Copyright &copy; 2026 | All Right Reserved
+        </p>
+    </div>
+  </div>
+</footer>
+<button type="button" class="btn btn-back-to-top shadow" id="btn-back-to-top" style="background-color: #C19A6B;">
+    <i class="bi bi-arrow-up text-light"></i>
+</button>
+        <div class="modal fade" id="modalVeva" tabindex="-1" aria-labelledby="modalVevaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered"> <div class="modal-content rounded-4 border-0 shadow-lg">
+      <div class="modal-body p-0">
+        
+        <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?q=80&w=1470&auto=format&fit=crop" 
+             class="img-fluid rounded-top-4 w-100" alt="Tentang Veva Furniture">
+        
+        <div class="p-4 text-center">
+          <h4 class="fw-bold mb-3" id="modalVevaLabel">Tentang Veva Furniture</h4>
+          <p class="text-muted small">
+            Veva Furniture adalah mitra terpercaya Anda untuk menciptakan ruang yang indah, fungsional, dan nyaman. 
+            Kami menghadirkan koleksi furnitur berkualitas tinggi dengan desain modern.
+          </p>
+          
+          <button type="button" class="btn btn-dark rounded-pill px-5 mt-3" data-bs-dismiss="modal">
+            Mengerti!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // 1. LOGIKA ANIMASI SCROLL (Intersection Observer)
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                if (entry.target.classList.contains('reveal-left')) {
+                    entry.target.classList.add('animate-left');
+                } else if (entry.target.classList.contains('reveal-right')) {
+                    entry.target.classList.add('animate-right');
+                }
+            }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.reveal-left, .reveal-right').forEach((el) => observer.observe(el));
+
+
+    // 2. LOGIKA TOMBOL BACK TO TOP
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    window.addEventListener('scroll', function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    });
+
+    mybutton.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+</body>
+</html>
